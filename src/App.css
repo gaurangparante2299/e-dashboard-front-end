@@ -1,10 +1,35 @@
-.App {
-  text-align: center;
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footer {
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: skyblue;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 5px;
+  width: 300px;
+  border: 1px solid skyblue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
